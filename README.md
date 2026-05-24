@@ -22,17 +22,17 @@ dependencies:
 
 This package requires you to provide a Gemini-style API key. The package does
 not ship with any credentials — set your key from secure storage or an
-environment variable and pass it to `PhysicsSpecialist`.
+environment variable and pass it to `PhysNOR`.
 
 ## Usage
 
 Basic single-query example (see `example/bin/main.dart`):
 
 ```dart
-import 'package:physnor/physnor_ai.dart';
+import 'package:physnor/physnor.dart';
 
 Future<void> main() async {
-	final assistant = PhysicsSpecialist(apiKey: '<YOUR_GEMINI_API_KEY>');
+	final assistant = PhysNOR(apiKey: '<YOUR_GEMINI_API_KEY>');
 	assistant.setModel('models/gemini');
 
 	final answer = await assistant.ask('Explain the photoelectric effect with equations and units.');
@@ -77,5 +77,5 @@ dart pub publish
 
 ## License
 
-This package follows the repository LICENSE.
+This package is published under BSD 3-Clause LICENSE.
 

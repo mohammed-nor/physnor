@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 /// A small adapter that talks to a Gemini-style generative model and
-/// presents a `PhysicsSpecialist` helper to fetch physics answers.
-class PhysicsSpecialist {
+/// presents a `PhysNOR` helper to fetch physics answers.
+class PhysNOR {
   final String apiKey;
   String model;
   final String systemPrompt;
@@ -14,7 +14,7 @@ class PhysicsSpecialist {
   /// `addAssistantMessage` to manage it.
   final List<Map<String, String>> conversation = [];
 
-  PhysicsSpecialist({required this.apiKey, String? model, String? systemPrompt})
+  PhysNOR({required this.apiKey, String? model, String? systemPrompt})
     : model = model ?? 'models/gemini',
       systemPrompt = systemPrompt ?? _defaultUltimatePrompt;
 

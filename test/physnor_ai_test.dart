@@ -1,12 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:physnor/physnor_ai.dart';
+import 'package:physnor/physnor.dart';
 
 void main() {
   test('buildRequestPayload includes system prompt and user message', () {
-    final specialist = PhysicsSpecialist(
-      apiKey: 'dummy',
-      model: 'exampleModel',
-    );
+    final specialist = PhysNOR(apiKey: 'dummy', model: 'exampleModel');
     final payload = specialist.buildRequestPayload(
       'What is Newton\'s second law?',
       0.1,
