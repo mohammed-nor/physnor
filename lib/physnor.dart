@@ -1,4 +1,4 @@
-library physnor;
+library;
 
 export 'physnor_ai.dart';
 export 'src/constants/physical_constants.dart';

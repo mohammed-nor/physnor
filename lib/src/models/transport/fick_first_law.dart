@@ -1,4 +1,3 @@
-import '../../constants/physical_constants.dart';
 import '../../utils/chemnor_validation.dart';
 
 /// Fick's first law for steady-state diffusion.
