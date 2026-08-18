@@ -1,6 +1,6 @@
 name: physnor
 description: Dart package that use AI(Gemini) to level up your physics knowledge and chat with your Ai physicist!
-version: 1.0.0
+version: 1.0.2
 repository: https://github.com/mohammed-nor/physnor
 issue_tracker: https://github.com/mohammed-nor/physnor/issues
 homepage: https://github.com/mohammed-nor/physnor

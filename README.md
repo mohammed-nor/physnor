@@ -15,7 +15,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  physnor: ^1.0.0
+  physnor: ^1.0.2
 ```
 
 Then import the library:
@@ -394,21 +394,6 @@ void main() {
   print('Arrhenius k = $arrhenius');
   print('Nernst potential = $nernst');
 }
-```
-
-## Publishing to pub.dev
-
-1. Update `version:` in `pubspec.yaml`.
-2. Validate with a dry run:
-
-```bash
-dart pub publish --dry-run
-```
-
-3. Publish:
-
-```bash
-dart pub publish
 ```
 
 ## License

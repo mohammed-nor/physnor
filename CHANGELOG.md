@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.0.2
 
 Add scientific models for heat transfer, kinetics, phase change, polymer, quantum, radiation, spectroscopy, statistics, surface science, thermodynamics, and transport
 
@@ -19,3 +19,4 @@ Add scientific models for heat transfer, kinetics, phase change, polymer, quantu
 - Implement Einstein diffusion and Fick's laws in transport_models.dart
 - Introduce Stokes-Einstein relation for diffusion coefficient in stokes_einstein.dart
 - Add validation utilities in chemnor_validation.dart for input checks across models
+- Update http dependency version to ^1.6.0
